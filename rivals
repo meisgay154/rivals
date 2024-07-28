@@ -49,16 +49,16 @@ local Section = Tab:CreateSection("keys🗝️/clipboard📋")
 local Button = Tab:CreateButton({
    Name = "SILENTkey",
    Callback = function()
-   SETSCLIPBOARD("SILENT-ZHWDx-GOTEZLMAO-kXsug-RIVALS")
+   setclipboard("SILENT-ZHWDx-GOTEZLMAO-kXsug-RIVALS")
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = SILENTDiscord",
+   Name = "SILENTDiscord",
    Callback = function()
    setclipboard("https://discord.gg/BvUveeNQtg")
    end,
 })
 
 
-Rayfield:LoadConfiguration()
+
